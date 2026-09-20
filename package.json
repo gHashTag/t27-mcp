@@ -1,0 +1,16 @@
+{
+  "name": "t27-mcp",
+  "version": "1.1.0",
+  "description": "MCP server over the live T27 surfaces: the published .t27 spec corpus, the queen feeds, and the numeric-format SSOT.",
+  "type": "module",
+  "bin": { "t27-mcp": "./server.mjs" },
+  "main": "server.mjs",
+  "files": ["server.mjs", "README.md"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.mjs",
+    "smoke": "node smoke.mjs"
+  },
+  "license": "Apache-2.0",
+  "private": true
+}
